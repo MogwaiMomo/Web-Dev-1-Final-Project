@@ -2,60 +2,161 @@
 
 <html>
 <head>
-	<title>Motion Graphics Project</title>
+	<title>SignalLeaf - Simple Podcast Hosting for Bloggers &amp; Entrepreneurs</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/text.css">
 	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/text.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body id="page">
-	<div id="container" class="section group container">
-		<div id="intro" class="appear col span_2_of_3 item">
-			
-			<h1>Click anywhere to start the show...</h1>
-			<h5>P.S. This project plays music! <br>(Please put earphones on to avoid disturbing others around you.)</h5>
-
-		</div>
-
-		<canvas id="canvas" class="col span_2_of_3 item">Your browser needs to support the HTML5 canvas element before this show can play.</canvas>
-
-		<div id="instruct" class="col span_2_of_3 item invisible"><h5>(Click anywhere on the canvas to end the show.)</h5></div> 
-
-		<div id="credits" class="col span_2_of_3 item hidden">
-			
-			<h1>Credits</h1>
-			<hr>
-			<p><strong>Song:</strong></p> 
-			<p>"In The Lost and Found (Honky Bach)", by Elliott Smith</p>
-			<br> 
-			<p><strong>Coded using:</strong></p> 
+<body>
+	<header id="main" class="section flex-container">
+		<a id="nav_logo"><img src="images/logo.png" alt="SignalLeaf Logo"></a>
+		<nav>
 			<ul>
-				<li><p>Responsive Grid System</p><li>
-				<li><p>FlexBox layout</p></li>
-				<li><p>CSS animation</p><li>
-				<li><p>HTML5 Canvas Animation (RequestAnimationFrame)</p><li>
-				<li><p>HTML5 Audio API</p><li>
-				<li><p>... aaaaaand a <em>buttload</em> of janky JavaScript :)</p><li>
-			<br>
-			<p><small>Thanks for checking out my project! <em>  -Momoko</em></small></p>
+				<li><a class="nav_link flex-item" href="#how-it-works">How it Works</a></li>
+				<li><a class="nav_link flex-item" href="#features">Features</a></li>
+				<li><a class="nav_link flex-item" href="#testimonials">Testimonials</a></li>
+				<li><button class="flex-item dropshadow">Login</button></li>
 			</ul>
+		</nav>
+	</header>
+	
+	<section id="hero">
+		<header>
+			<h1>Get Your Podcast Online in 3 Minutes <em>Flat</em></h1>
+			<h3>SignalLeaf makes storing &amp; streaming your audio files as easy as possible</h3>
+			<img src="images/Arrow-left.png"><!-- left arrow -->
+			<video src="#" controls width="50%" poster="images/thumbnail.png"> </video>
+			<img src="images/Arrow-right.png"> <!-- right arrow -->
+			<button>Get Started</button>
+			<p>(No credit card required!)</p>
+		</header>
+	</section>
 
+	<section id="how-it-works" class="border">
+		<header>
+			<h2>Finally ... a podcast hosting service that's <strong>Simple</strong>, <strong>Intuitive</strong> &amp; <strong>Easy to Use</strong></h2>
+		</header>
+
+		<div>		<!--Record-->
+			<img src="images/microphone.png">
+			<h3>1. Record</h3>
+			<p>Create your awesome content. Edit it using the software of your choice.</p>
 		</div>
-		
-	</div>
+		<div>		<!--Upload-->
+			<img src="images/upload.png">
+			<h3>2. Upload</h3>
+			<p>Upload your MP3 files to SignalLeaf. Set up your RSS and submit it to iTunes.</p>
+		</div>
+		<div>		<!--Embed-->
+			<img src="images/blue_checkmark.png">
+			<h3>3. Embed</h3>
+			<p>Copy the code snippet and paste it onto your website. You're done!</p>
+		</div>
 
-	<script type="text/javascript" src="js/flow.js"></script>
-
+	</section>
+	<section id="features" class="border">
+		<header>
+			<h2>You <em>could</em> spend hours patching everything together yourself ... Or you could let SignalLeaf do it all for you.</h2> 
+		</header>
+		<div>
+			<ul>			<!-- Make sure to include custom img for bullets -->
+				<li><h4>No bandwidth worries</h4>
+					<p>Nam liber tempor soluta nobis eleifend option congue nihil imperdiet doming id quod mazim quod mazim.</p>
+				</li>
+				<li><h4>1-on-1 expert help</h4>
+					<p>Nam liber tempor soluta nobis eleifend option congue nihil imperdiet doming id quod mazim quod mazim.</p>
+				</li>
+				<li><h4>No custom coding</h4>
+					<p>Nam liber tempor soluta nobis eleifend option congue nihil imperdiet doming id quod mazim quod mazim.</p>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<ul>			<!-- Make sure to include custom img for bullets -->
+				<li><h4>Meaningful reports</h4>
+					<p>Nam liber tempor soluta nobis eleifend option congue nihil imperdiet doming id quod mazim quod mazim.</p>
+				</li>
+				<li><h4>Easy RSS setup</h4>
+					<p>Nam liber tempor soluta nobis eleifend option congue nihil imperdiet doming id quod mazim quod mazim.</p>
+				</li>
+				<li><h4>As simple as it gets</h4>
+					<p>Nam liber tempor soluta nobis eleifend option congue nihil imperdiet doming id quod mazim quod mazim.</p>
+				</li>
+			</ul>
+		</div> 
+		 
+	</section>
+	<section id="testimonials" class="border">
+		<header>
+			<h2>Spend more time <strong>recording your podcast</strong>, and less time on the tedious details</h2>
+		</header>
+		<div>
+			<div class="text-bubble">
+				<h5>"Why risk bringing your whole server down?"<h5>
+				<blockquote>"...SignalLeaf is perfect for first-time and seasoned podcasters who want a clean, clutterfree hosting solution."</blockquote>
+			</div> <!-- bubble with bkgd img -->
+			<img src="images/Chris_Hardwick.png"> <!-- headshot -->
+			<p>Chris Hardwick</p>
+			<p>Host of The Nerdist</p>	
+		</div>
+		<div>
+			<divclass="text-bubble">
+				<h5>"SignalLeaf lets you focus on being creative!"<h5>
+				<blockquote>"...You don't have to worry about all the hardcore computer stuff. It's all taken care of, and you know it's always going to work."</blockquote>
+			</div> <!-- bubble with bkgd img -->
+			<img src="images/Jad_Abumrad.png"> <!-- headshot -->
+			<p>Jad Abumrad</p>
+			<p>Co-host of NPR Radiolab</p>	
+		</div>
+	</section>
+	<section id="C2A" class="border">
+		<header>
+			<h2>Simplify Your Podcast Today</h2>
+		</header>
+		<button>Start Now</button>
+	</section>
+	<footer class="border">
+		<a id="foot_logo"><img class="border" src="images/logo.png" alt="SignalLeaf Logo"></a>
+		<div class="col1">
+			<h4>Overview<h4>
+			<ul>
+				<li><a>Features</a></li>
+				<li><a>Pricing Plans</a></li>
+				<li><a>Security</a></li>
+			</ul> 
+		</div>
+		<div class="col2">
+			<h4>Company<h4>
+			<ul>
+				<li><a>About</a></li>
+				<li><a>Case Studies</a></li>
+				<li><a>Blog</a></li>
+			</ul> 
+		</div>
+		<div class="col3">
+			<h4>Support<h4>
+			<ul>
+				<li><a>Tutorials</a></li>
+				<li><a>FAQs</a></li>
+				<li><a>Knowledge Base</a></li>
+			</ul> 
+		</div>
+		<div class="col4">
+			<h4>Contact<h4>
+			<ul>
+				<li><a>hello@signalleaf.com</a></li>
+			</ul> 
+		</div>
+		<div class="terms">
+			<li>&copy; 2014 SignalLeaf, Inc.</li>
+			<li><a>Terms of Service</a></li>
+			<li><a>Privacy</a></li>
+			<li><a>Sitemap</a></li>
+		</div>
+	</footer>
 </body>
-
 </html>
-
-
-		<!-- On click:
-
-		7. LAST ITEM: Roll Credits
-
-		 -->
