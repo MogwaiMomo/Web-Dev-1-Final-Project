@@ -6,37 +6,51 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/text.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<header id="main" class="section flex-container">
-		<a id="nav_logo"><img src="images/logo.png" alt="SignalLeaf Logo"></a>
-		<nav>
+	<!-- main grid: 3 cols, logo takes span_1_of_3, nav takes span_2_of_3 -->
+	<header id="main" class="section group">
+		<div id="nav_logo" class="col span_1_of_3"><a href="index.html"><img src="images/logo.png" alt="SignalLeaf Logo"></a></div>
+		<nav class="col span_2_of_3">
 			<ul>
-				<li><a class="nav_link flex-item" href="#how-it-works">How it Works</a></li>
-				<li><a class="nav_link flex-item" href="#features">Features</a></li>
-				<li><a class="nav_link flex-item" href="#testimonials">Testimonials</a></li>
-				<li><button class="flex-item dropshadow">Login</button></li>
+				<li><a class="nav_link" href="#how-it-works">How it Works</a></li>
+				<li><a class="nav_link" href="#features">Features</a></li>
+				<li><a class="nav_link" href="#testimonials">Testimonials</a></li>
+				<li><button class="dropshadow">Login</button></li>
 			</ul>
 		</nav>
 	</header>
 	
-	<section id="hero">
-		<header>
+	<!-- hero grid: 4 cols
+			Row 1: headlines takes span_4_of_4; 
+			Row 2: arrow-left takes span_1_of_4; video takes span_2_of_4; arrow-right takes span_1_of_4;
+			Row 3: Call-to-action elements take span_4_of_4;
+		-->
+
+	<section id="hero" class="section group">
+		<header class="col span_4_of_4">
 			<h1>Get Your Podcast Online in 3 Minutes <em>Flat</em></h1>
 			<h3>SignalLeaf makes storing &amp; streaming your audio files as easy as possible</h3>
-			<img src="images/Arrow-left.png"><!-- left arrow -->
-			<video src="#" controls width="50%" poster="images/thumbnail.png"> </video>
-			<img src="images/Arrow-right.png"> <!-- right arrow -->
-			<button>Get Started</button>
-			<p>(No credit card required!)</p>
 		</header>
+		<div id="hero-content" class="col span_4_of_4">
+			<img id="arrow-left" class="col" src="images/arrow-left.png" alt="orange arrow"><!-- left arrow -->
+			<video class="col" src="#" controls poster="images/thumbnail.png"></video>
+			<img id="arrow-right" class="col" src="images/arrow-right.png" alt="orange arrow"> <!-- right arrow -->
+			<div id="main-C2A"><button id="getstarted" class="dropshadow">Get Started Now</button></div>
+			<p id="trigger">(No credit card required!)</p>
+		</div>	
 	</section>
 
-	<section id="how-it-works" class="border">
+<!-- how-it-works grid: 3 cols
+			Row 1: headlines takes span_3_of_3; 
+			Row 2: Microphone/Upload/Embed: span_1_of_3 each;
+		-->
+
+	<section id="how-it-works" class="section group">
 		<header>
 			<h2>Finally ... a podcast hosting service that's <strong>Simple</strong>, <strong>Intuitive</strong> &amp; <strong>Easy to Use</strong></h2>
 		</header>
@@ -58,7 +72,13 @@
 		</div>
 
 	</section>
-	<section id="features" class="border">
+
+<!-- features grid: 4 cols
+			Row 1: headlines takes span_4_of_4; 
+			Row 2: columns take span_2_of_4 each;
+		-->
+
+	<section id="features" class="section group">
 		<header>
 			<h2>You <em>could</em> spend hours patching everything together yourself ... Or you could let SignalLeaf do it all for you.</h2> 
 		</header>
@@ -90,7 +110,13 @@
 		</div> 
 		 
 	</section>
-	<section id="testimonials" class="border">
+
+	<!-- testimonial grid: 4 cols
+			Row 1: headlines takes span_4_of_4; 
+			Row 2: columns take span_2_of_4 each;
+		-->
+
+	<section id="testimonials" class="section group">
 		<header>
 			<h2>Spend more time <strong>recording your podcast</strong>, and less time on the tedious details</h2>
 		</header>
@@ -113,14 +139,19 @@
 			<p>Co-host of NPR Radiolab</p>	
 		</div>
 	</section>
-	<section id="C2A" class="border">
+	<section id="C2A" class="section">
 		<header>
 			<h2>Simplify Your Podcast Today</h2>
 		</header>
 		<button>Start Now</button>
 	</section>
-	<footer class="border">
-		<a id="foot_logo"><img class="border" src="images/logo.png" alt="SignalLeaf Logo"></a>
+
+<!-- Final C2A grid: 3 cols
+			Row 1: takes span_3_of_3; 
+		-->
+
+	<footer class="section group">
+		<a id="foot_logo"><img src="images/logo.png" alt="SignalLeaf Logo"></a>
 		<div class="col1">
 			<h4>Overview<h4>
 			<ul>
