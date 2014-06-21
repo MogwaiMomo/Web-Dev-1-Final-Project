@@ -119,13 +119,13 @@ video {
 
 /* How It Works Styling */
 
-/*h2:before { 
+h2:before { 
   display: block; 
   content: " "; 
-  margin-top: -300px; 
-  height: 300px; 
+  margin-top: -144px; 
+  height: 144px; 
   visibility: hidden; 
-}*/
+}
 
 section {
   text-align: center;
