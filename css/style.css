@@ -3,7 +3,6 @@
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
  }
  
-
  /* Nav section */
 
 #main {
@@ -119,15 +118,26 @@ video {
 
 /* How It Works Styling */
 
-#how-it-works {
-  background-color: #008FB6;
+/*h2:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -300px; 
+  height: 300px; 
+  visibility: hidden; 
+}*/
+
+section {
   text-align: center;
   width: 100%;
-  padding: 2% 0 0 0; 
+  padding: 5% 0 5% 0; 
+}
+
+#how-it-works-section {
+  background-color: #008FB6;
 }
 
 /* tagged */
-#how-it-works h2 {
+#how-it-works-section h2 {
   color: #fefefe;
   font-size: 2.5em;
   text-shadow: 0px 1px 0px #0e0e0e;
@@ -137,13 +147,13 @@ video {
 }
 
 /* tagged */
-#how-it-works header {
+/*#how-it-works-section header {
   padding: 1% 0% 3% 0%;
-}
+}*/
 
 /* tagged */
-#how-it-works div {
-  padding: 0 5% 2% 5%;
+#how-it-works-section div {
+  padding: 2% 5% 2% 5%;
 }
 
 /* tagged */
@@ -164,7 +174,7 @@ video {
 }
 
 /* tagged */
-#how-it-works p {
+#how-it-works-section p {
   color: #fefefe;
   font-size: 1.3em;
   font-weight: lighter;
@@ -175,14 +185,24 @@ video {
 
 /* Features Styling */
 
-#features {
+#features:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+}
+
+
+#features-section {
   background-color: #E8FFFF;
   color: #0e0e0e;
   text-align: center;
   padding: 0 0 4% 0;
 }
 
-#features h2 {
+
+#features-section h2 {
   color: inherit;
   font-size: 2.5em;
   text-shadow: 0px 1px 0px #fefefe;
@@ -199,7 +219,7 @@ font-size: 1.2em;
 line-height: 1.4em;
 }
 
-#features h4 {
+#features-section h4 {
   font-size: 1.5em;
   text-shadow: 0px 1px 0px #fefefe;
   letter-spacing: 0;
@@ -221,13 +241,13 @@ line-height: 1.4em;
 
 /* Testimonial Styling */
 
-#testimonials {
+#testimonials-section{
   background-color: #9AF0FF;
   text-align: center;
   padding: 0 0 4% 0;
 }
 
-#testimonials h2 {
+#testimonials-section h2 {
   color: inherit;
   font-size: 2.5em;
   text-shadow: 0px 1px 0px #fefefe;
