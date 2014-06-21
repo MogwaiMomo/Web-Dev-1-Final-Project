@@ -104,7 +104,7 @@ video {
 
 
 /* tagged */
-#getstarted {
+.bigbutton {
   font-size: 1.4em;
   letter-spacing: -1px;
   padding: 1.5%;
@@ -112,7 +112,7 @@ video {
 
 
 /* tagged */
-#trigger {
+.trigger {
   padding-bottom: 2%;
   margin-top: 0.5%;
 }
@@ -285,13 +285,15 @@ line-height: 1.4em;
 
 
 #C2A h2 {
-   color: #fefefe;
+  color: #fefefe;
   font-size: 2.5em;
   text-shadow: 0px 1px 0px #0e0e0e;
   font-weight: lighter;
   letter-spacing: 0;
   line-height: 1.2em;
 }
+
+
 
 /* Footer Styling */
 
