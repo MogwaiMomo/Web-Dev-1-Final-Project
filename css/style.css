@@ -259,6 +259,7 @@ line-height: 1.4em;
   margin-left: -1%;
 }
 .tagline {
+  position: relative;
   margin: 15% 0 0 -2%;
 }
 
@@ -266,10 +267,12 @@ line-height: 1.4em;
   position: relative;
 }
 
-.tagline p {
-  position: relative;
-  top: 0 right ;
+.tagline #text {
+  position: absolute;
+  left: 27%;
+  bottom: 17%;
 }
+
 
 /* C2A Styling */
 
