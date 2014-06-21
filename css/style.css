@@ -9,8 +9,8 @@
  h2:before { 
   display: block; 
   content: " "; 
-  margin-top: -144px; 
-  height: 144px; 
+  margin-top: -140px; 
+  height: 146px; 
   visibility: hidden; 
 }
 
