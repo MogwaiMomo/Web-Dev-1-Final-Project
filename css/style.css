@@ -267,7 +267,7 @@ line-height: 1.4em;
   position: relative;
 }
 
-.tagline #text {
+.tagline .text {
   position: absolute;
   left: 27%;
   bottom: 17%;
