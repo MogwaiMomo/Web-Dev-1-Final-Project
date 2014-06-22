@@ -17,10 +17,10 @@
 		<div id="nav_logo" class="col span_1_of_3"><a href="/"><img src="images/logo.png" alt="SignalLeaf Logo"></a></div>
 		<nav class="col span_2_of_3">
 			<ul>
-				<a class="nav_link" href="#how-it-works"><li>How it Works</li></a>
+				<li><a class="nav_link" href="#how-it-works">How it Works</a></li>
 				<li><a class="nav_link" href="#features">Features</a></li>
 				<li><a class="nav_link" href="#testimonials">Testimonials</a></li>
-				<li><a href="signup.html"class="button dropshadow">Sign Up</a></li>
+				<li><a class="button dropshadow" href="#signup">Sign Up</a></li>
 
 			</ul>
 		</nav>
@@ -39,9 +39,9 @@
 		</header>
 		<div class="col span_4_of_4">
 			<img id="arrow-left" class="col" src="images/arrow-left.png" alt="orange arrow"><!-- left arrow -->
-			<video src="data/Sundown.m4v" class="col" src="#" controls ></video>
+			<video src="data/Sundown.m4v" class="col" controls ></video>
 			<img id="arrow-right" class="col" src="images/arrow-right.png" alt="orange arrow"> <!-- right arrow -->
-			<div id="main-C2A"><a href="signup.html" class="button bigbutton dropshadow">Get Started Now</a></div>
+			<div id="main-C2A"><a href="#signup" class="button bigbutton dropshadow">Get Started Now</a></div>
 			<p class="trigger">(No credit card required!)</p>
 		</div>	
 	</section>
@@ -144,15 +144,34 @@
 		</div>
 	</section>
 
-	<!-- Final C2A  -->
+	<!-- Signup Section  -->
 
-	<section id="C2A" class="group">
-		<header>
-			<h2>Simplify Your Podcast Today</h2>
+	<section id="signup-section" class="group flex-container">
+		<header class="col span_3_of_3">
+			<h2 id="signup">Get Your Podcast Online in Minutes</h2>
 		</header>
-		<a href="signup.html" class="button bigbutton dropshadow">Get Your Podcast Online</a>
-		<p class="trigger">(Try it free for 30 days!)</p>
-	</section>
+		
+		<div id="wrapper">
+            <form action="myscript.py" method="post">
+            <div class="flex-item">
+            <!-- 	<h4>Your Email:</h4> -->
+            	<input class="form_input" type="email" name="pre[email]" placeholder=" Type your email ..." autocomplete="off" required="required" />
+            
+            	<!-- <h4>Create Your Password:</h4> -->
+                <input class="form_input" type="password" name="pre[password]" placeholder=" Create your password ..." autocomplete="off" required="required" />
+
+     
+               <!--  <h4>Confirm Password:</h4> -->
+                <input class="form_input" type="password" name="pre[password]" placeholder=" Re-type your password ..." autocomplete="off" required="required" >
+               
+                
+                <div><input id="final_call" class="button bigbutton dropshadow" type="submit" value="Get Podcasting" /></div>
+                <p class="trigger">(It's free, so really ... what are you waiting for?)</p>
+            </div>
+            </form>
+		</div>	    
+	</section>  
+
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/animations.js"></script>
 </body>

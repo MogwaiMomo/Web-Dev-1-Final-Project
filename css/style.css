@@ -281,29 +281,12 @@ text-align: left;
 }
 
 
-/* C2A Styling */
-
-#C2A {
-  color: #fefefe;
-  background-color: #0C6387;
-
-}
-
-
-#C2A h2 {
-  text-shadow: 0px 1px 0px #0e0e0e;
-  margin-bottom: 4%;
-}
-
 /* Signup page */
 
-
-
-/* Flexbox for easy positioning and alignment */
+/* add Flexbox for easy positioning and alignment */
  
  /* adjust as needed */
  .flex-container {
-  background-color: #0C6387;
   height: 100%;
   flex-flow: row wrap;
   display: -webkit-box;
@@ -319,11 +302,41 @@ text-align: left;
  /* adjust as needed */
 .flex-item {
   position:relative;
- /* top:-10%;*/ 
   text-align: center;
   padding:0;
   margin:0;
 }
+
+#signup-section {
+  color: #fefefe;
+  background-color: #0C6387;
+  padding-top: 10%;
+  padding-bottom: 12%;
+}
+
+#signup-section h4 {
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-top: 8%;
+  margin-bottom: 1%;
+}
+
+.form_input {
+  border-radius: 3px;
+  font-size: 1.4em;
+  margin: 3% 0 0 0;
+  width: 50%;
+  
+}
+
+
+#final_call {
+  padding: 3% 5% 3% 5%;
+  margin-top: 7%;
+}
+
+
+
  /*for troubleshooting layout 
 */
 
