@@ -9,13 +9,12 @@ by Momoko Price, momoko@copy-cat.co
 
 ## PROJECT REQUIREMENTS 
 
-1) To view this project locally, it needs to run on a web server (aka by opening up http://localhost:8000, etc., not by opening index.html directly through your web browser). Without a web server, your browser will not allow the mp3 to run and the animation won't work.
+To view this project locally, it needs to run on a web server (aka by opening up http://localhost:8000, etc., not by opening index.html directly through your web browser). Without a web server, your browser will not allow the mp3 to run and the animation won't work.
 
 You can run a built-in web server through Python if you have Python installed on your computer. Simply navigate to the root folder of the project through the command line and type:
 
 $ python -m SimpleHTTPServer [press enter]
 
-Alternatively, if running the project on localhost is not an option, you can test [the live version of the project on Github](http://mogwaimomo.github.io/Web-Dev-1-Final-Project/).
 
 ## PROJECT FEATURES
 
