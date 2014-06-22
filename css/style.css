@@ -89,13 +89,19 @@ nav ul li {
   padding-right: 6%;
 }
 
-.nav_link {
+
+
+a.nav_link {
   color: #fefefe;
   font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
   font-size: 1.1em;
   font-weight: lighter;
   text-shadow: 1px 1px 1px #000;
   text-decoration: none;
+}
+
+a.nav_link:link {
+  color: #fefefe;
 }
 
 
