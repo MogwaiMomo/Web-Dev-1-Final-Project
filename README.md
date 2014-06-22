@@ -3,9 +3,9 @@ for IxD Essentials
 
 by Momoko Price, momoko@copy-cat.co  
 
-[DOWNLOAD THE PROJECT ZIP FILE](https://github.com/MogwaiMomo/web-dev-project)
+[DOWNLOAD THE PROJECT ZIP FILE](https://github.com/MogwaiMomo/Web-Dev-1-Final-Project/)
 
-[See the live version](https://github.com/MogwaiMomo/Web-Dev-1-Final-Project/)
+[See the live version](http://mogwaimomo.github.io/Web-Dev-1-Final-Project/)
 
 ## PROJECT REQUIREMENTS 
 
@@ -15,7 +15,7 @@ You can run a built-in web server through Python if you have Python installed on
 
 $ python -m SimpleHTTPServer [press enter]
 
-Alternatively, if running the project on localhost is not an option, you can test [the live version of the project on Github](https://github.com/MogwaiMomo/Web-Dev-1-Final-Project/).
+Alternatively, if running the project on localhost is not an option, you can test [the live version of the project on Github](http://mogwaimomo.github.io/Web-Dev-1-Final-Project/).
 
 ## PROJECT FEATURES
 
