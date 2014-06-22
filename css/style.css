@@ -4,6 +4,7 @@
  }
  
 a:link {
+  color: #0e0e0e;
   text-decoration: none;
 }
 
@@ -13,10 +14,12 @@ a.button:visited {
 }
 
 a:hover {
+  color: #0e0e0e;
   text-decoration: none;
 }
 
 a:active {
+  color: #0e0e0e;
   text-decoration: none;
 }
 
